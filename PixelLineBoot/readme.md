@@ -4,4 +4,4 @@ To assemble and run the bootloader either use the following command line:
 
 `as pixel_line.s -o pixel_line.o && objcopy -O binary pixel_line.o pixel_line.bin && dd if=pixel_line.bin of=pixel_line.img && qemu-system-x86_64 -net none -drive format=raw,file=pixel_line.img`
 
-Or, you can use the (bootscript.sh)[https://github.com/Demkeys/x86-Assembly-ATT-Bootloaders/blob/master/PixelLineBoot/bootscript.sh] bash script. It does the exact same thing the above command line does.
+Or, you can use the [bootscript.sh](https://github.com/Demkeys/x86-Assembly-ATT-Bootloaders/blob/master/PixelLineBoot/bootscript.sh) bash script. It does the exact same thing the above command line does.
