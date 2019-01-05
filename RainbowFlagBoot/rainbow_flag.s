@@ -17,8 +17,7 @@ _start:
 	pushw $0x12f		# -16(%bp) Flag length max
 	pushw $0x00		# -18(%bp) Flag height current
 	pushw $0xbf		# -20(%bp) Flag height max
-	pushw $0x00		# -22(%bp) Strip height current
-	pushw $0xbf		# -24(%bp) Strip height max
+	subw $0x4, %sp		# Again, legacy reasons (read above).
 	pushw $0x28		# -26(%bp) Strip color current
 	###############################################
 
