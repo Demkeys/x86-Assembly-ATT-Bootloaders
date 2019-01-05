@@ -5,3 +5,5 @@ ___NOTE: THESE ARE NOT TUTORIALS. This repo is meant to be used as a reference f
 
 ## Index: ##
 * [Barebones (does nothing, just boots)](https://github.com/Demkeys/x86-Assembly-ATT-Bootloaders/blob/master/BarebonesBoot)
+* [Pixel Line](https://github.com/Demkeys/x86-Assembly-ATT-Bootloaders/tree/master/PixelLineBoot)
+* [Rainbow Flag](https://github.com/Demkeys/x86-Assembly-ATT-Bootloaders/tree/master/RainbowFlagBoot)
